@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Rental Motor - GUI</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>780</width>
+      <height>420</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="tabMotor">
+     <attribute name="title">
+      <string>Motor</string>
+     </attribute>
+     <widget class="QListWidget" name="motorList">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>540</width>
+        <height>360</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="addMotorBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>10</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tambah Motor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="editMotorBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>60</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Edit Motor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deleteMotorBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>110</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hapus Motor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sewaBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>170</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sewa Motor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="kembaliBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>220</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Kembalikan Motor</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabPenyewa">
+     <attribute name="title">
+      <string>Penyewa</string>
+     </attribute>
+     <widget class="QListWidget" name="penyewaList">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>540</width>
+        <height>360</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="addPenyewaBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>10</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Tambah Penyewa</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="editPenyewaBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>60</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Edit Penyewa</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="deletePenyewaBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>110</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Hapus Penyewa</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabTransaksi">
+     <attribute name="title">
+      <string>Transaksi</string>
+     </attribute>
+     <widget class="QListWidget" name="transaksiList">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>540</width>
+        <height>360</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="saveBtn">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>10</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Simpan Data</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
